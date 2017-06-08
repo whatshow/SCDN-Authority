@@ -1,18 +1,24 @@
 {
-  "name": "test",
-  "version": "0.0.0",
+  "name": "SCDN-Authority",
+  "version": "1.0.1",
   "private": true,
   "scripts": {
     "start": "node ./bin/www"
   },
   "dependencies": {
+    "asyncawait": "^1.0.6",
     "body-parser": "~1.17.1",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.3",
     "ejs": "~2.5.6",
+    "es6-promise": "^4.1.0",
     "express": "~4.15.2",
+    "generic-pool": "^3.1.7",
+    "jwt-simple": "^0.5.1",
     "less-middleware": "~2.2.0",
+    "mongodb": "^2.2.28",
     "morgan": "~1.8.1",
+    "objectid": "^3.2.1",
     "serve-favicon": "~2.4.2"
   }
 }
